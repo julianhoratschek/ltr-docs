@@ -2,7 +2,11 @@
 
 ## Formulartab erstellen
 
-Formulartabs können mittles toml-Format erstellt werden. Eine automatische Integration der Daten des Formulares erfolgt in die exportierte xml-Datei. Sobald eine Datei exportier wurde, wird versucht, die Formulare bei erneutem Laden der Patientendaten aus der zugehörigen xml zu laden.
+Formulartabs können mittles toml-Format erstellt werden. Eine automatische Integration der Daten des Formulares erfolgt in die exportierte xml-Datei. Sobald eine Datei exportiert wurde, wird versucht, die Formulare bei erneutem Laden der Patientendaten aus der zugehörigen xml zu laden.
+
+Ein Beispiel für ein Formular kann [hier](bdi2.toml) eingesehen werden.
+Pro Formular muss eine neue toml-Datei erstellt werden, ein Formular kann
+jedoch mehrere Felder enthalten.
 
 
 ## Auf exportierte Formulardaten zugreifen
@@ -65,7 +69,7 @@ id = "capitals"
 field_type = "xbox"
 rows = 5               # Maximal 5 Auswahlboxen werden pro Spalte angezeigt
 values = [
-    "Kiel", "Schwerin", "Hamburg", "Hannover", "Potsdam", "Magdeburg", "Düsseldorf", "rfurt"; "Dresden", "Wiesbaden", "Mainz", "Saarbrücken", "Stuttgart", "München"
+    "Kiel", "Schwerin", "Hamburg", "Hannover", "Potsdam", "Magdeburg", "Düsseldorf", "Erfurt", "Dresden", "Wiesbaden", "Mainz", "Saarbrücken", "Stuttgart", "München"
 ]
 ```
 

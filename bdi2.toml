@@ -1,0 +1,158 @@
+name = "Psychische &Belastung"		# Shortcut: [ALT] + [B]
+
+
+# Erstes Feld: Typischer BDI II
+
+[[field]]
+caption = "BDI II"
+id = "bdi_ii"
+field_type = "eval_line"
+start = 1		# Der Benutzer nutzt "1" als niedrigsten Wert, dies entspricht hier "0" als value
+
+[[field.values]]
+0 = ""
+1 = "sei oft traurig"
+2 = "sei ständig traurig"
+3 = "sei so traurig und unglücklich, dass es nicht auszuhalten sei"
+
+[[field.values]]
+0 = ""
+1 = "sehe mutloser in die Zukunft als sonst"
+2 = "sei mutlos und erwarte nicht, dass die Situation besser würde"
+3 = "glaube, dass die Zukunft hoffnungslos sei"
+
+[[field.values]]
+0 = ""
+1 = "habe häufiger Versagensgefühle"
+2 = "sehe im Rückblick eine Menge Fehlschläge"
+3 = "habe das Gefühl, ständig zu versagen"
+
+[[field.values]]
+0 = ""
+1 = "könne die Dinge nicht mehr so genießen wie früher"
+2 = "könne Dinge, die früher Freude gemacht haben, nicht mehr genießen"
+3 = "könne das Leben gar nicht mehr genießen"
+
+[[field.values]]
+0 = ""
+1 = "habe oft Schuldgefühle"
+2 = "habe die meiste Zeit über Schuldgefühle"
+3 = "habe ständig Schuldgefühle"
+
+[[field.values]]
+0 = ""
+1 = "habe das Gefühl, vielleicht bestraft zu werden"
+2 = "erwarte, bestraft zu werden"
+3 = "habe das Gefühl, bestraft zu sein"
+
+[[field.values]]
+0 = ""
+1 = "habe das Vertrauen in sich verloren"
+2 = "sei von sich enttäuscht"
+3 = "lehne sich völlig ab"
+
+[[field.values]]
+0 = ""
+1 = "sei sich selbst gegenüber kritischer als sonst"
+2 = "kritisiere sich für alle Mängel"
+3 = "gebe sich die Schuld für alles Schlimme, was passiere"
+
+[[field.values]]
+0 = ""
+1 = "denke manchmal an Suizid, würde dies aber nicht tun"
+2 = "wolle sich am liebsten suizidieren"
+3 = "würde sich suizidieren, wenn sich die Gelegenheit böte"
+
+[[field.values]]
+0 = ""
+1 = "weine jetzt mehr als früher"
+2 = "weine beim geringsten Anlass"
+3 = "wolle gerne weinen, könne aber nicht"
+
+[[field.values]]
+0 = ""
+1 = "sei unruhiger als sonst"
+2 = "sei so unruhig, dass es schwer falle, still zu sitzen"
+3 = "müsse sich vor Unruhe ständig bewegen"
+
+[[field.values]]
+0 = ""
+1 = "habe weniger Interesse an anderen Dingen als sonst"
+2 = "habe das Interesse an anderen Menschen oder Dingen zum größten Teil verloren"
+3 = "habe fast gar kein Interesse mehr an irgendetwas"
+
+[[field.values]]
+0 = ""
+1 = "habe mehr Schwierigkeiten als sonst, Entscheidungen zu treffen"
+2 = "habe viel mehr Schwierigkeiten als sonst, Entscheidungen zu treffen"
+3 = "könne sich überhaupt nicht mehr entscheiden"
+
+[[field.values]]
+0 = ""
+1 = "halte sich für weniger wertvoll und nützlich als sonst"
+2 = "fühle sich verglichen mit anderen Menschen viel weniger wert"
+3 = "fühle sich völlig wertlos"
+
+[[field.values]]
+0 = ""
+1 = "habe weniger Energie als sonst"
+2 = "habe kaum noch Energie für irgendetwas übrig"
+3 = "fühle sich völlig energielos"
+
+[[field.values]]
+0 = ""
+1 = "schlafe etwas mehr als sonst"
+2 = "schlafe etwas weniger als sonst"
+3 = "schlafe viel mehr als sonst"
+4 = "schlafe viel weniger als sonst"
+5 = "schlafe fast den ganzen Tag"
+6 = "wache 1-2 Stunden früher auf als gewöhnlich und könne nicht mehr einschlafen"
+
+[[field.values]]
+0 = ""
+1 = "sei reizbarer als sonst"
+2 = "sei viel reizbarer als sonst"
+3 = "fühle sich andauernd gereizt"
+
+[[field.values]]
+0 = ""
+1 = "könne sich nicht mehr so gut konzentrieren wie sonst"
+2 = "könne sich nicht mehr längere Zeit auf irgendwas konzentrieren"
+3 = "könne sich überhaupt nicht mehr konzentrieren"
+
+[[field.values]]
+0 = ""
+1 = "fühle sich schneller müde und erschöpft"
+2 = "sei für viele Routineaktivitäten zu erschöpft"
+3 = "sei so müde und erschöpft, dass nichts mehr möglich sei"
+
+[[field.values]]
+0 = ""
+1 = "interessiere sich weniger für Sexualität als früher"
+2 = "habe viel weniger Interesse an Sexualität"
+3 = "habe das Interesse an Sexualität völlig verloren"
+
+
+# Zweites Feld zur Einschätzung chronischer Schmerzen
+
+[[field]]
+caption = "Chronische Schmerzerkrankung"
+id = "chronisch"
+field_type = "xbox"
+values = [
+    "habe eine verminderte körperliche Leistungsfähigkeit",
+    "reagiere körperlich empfindlicher als früher",
+    "schone sich mehr",
+    "versuche trotz der Schmerzen durchzuhalten",
+    "nehme zunehmend mehr Medikamente ein",
+    "glaube, die Schmerzen würden immer schlimmer",
+    "wisse nicht mehr weiter",
+    "sei gedrückt in der Stimmung und habe Angst",
+    "sei reizbarer",
+    "könne oft keine Ruhe finden",
+    "sei wegen der Schmerzen oft arbeitsunfähig oder bei der Arbeit stark beeinträchtigt",
+    "sei in Alltagsaktivitäten beeinträchtigt",
+    "müsse häufig Ärzte, Therapeuten oder Kliniken aufsuchen",
+    "sei in gesellschaftlichen und familiären Aktivitäten beeinträchtigt",
+    "es sei durch die Schmerzen bereits zu Spannungen in Beruf und Familie gekommen"
+]
