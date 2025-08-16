@@ -1,0 +1,67 @@
+# Path to location of data *.docx files (required)
+file_db = "./file_db"
+
+# Path to template *.docx to copy contents from (required)
+# Adding a new value will automatically append it to the "export"-options in ltr.
+template_files = [
+    "./templates/Arztbrief.docx",
+    "./templates/Arbeitgebervorlage.docx",
+    "./templates/Arztbrief Kinder.docx",
+    "./templates/Einverständnisserklärung Minderjährige.docx",
+    "./templates/Krankenhaustagegeldversicherung.docx"
+]
+
+# Path to *.xsl file, which will transform template_file (required)
+xsl_file = "./style/style.xsl"
+
+# Path to save processed xml data to (optional, default: ./data)
+save_path = "./data"
+
+# Path to save generated *.docx files to (optional, default: ./output)
+output_path = "./output"
+
+# Output filename, fields are: {vorname}, {nachname}, {aufnahme}, {entlassung}, {geburtstag}
+# Each date will be formatted as ddmmYYYY
+output_filename = "A-{nachname}, {vorname} {aufnahme}"
+
+# Files in *.docx structure of template_file to transform using xsl_file (optional)
+# This has to do with inner workings of the docx-format. If in doubt, leave as is.
+process_files = ["word/document.xml", "word/header1.xml"]
+
+# Forms to load from ./forms/ in order they will appear in the application (optional)
+# The forms will be loaded in the same order as they are defined here
+forms = [
+    "midas", "treatments", "symptoms_box", "bdi2", "whodas"
+]
+
+# Medication names to ignore while loading (optional)
+ignore_meds = ["Akut:", "Basis:", "Sonstige:"]
+
+# Substitute medication names (optional)
+[substitute_meds]
+Aimovig = "Erenumab"
+Ajovy = "Fremanezumab"
+Almogran = "Almotriptan"
+Allegro = "Frovatriptan"
+Amineurin = "Amitriptylin"
+Anafranil = "Clomipramin"
+ASS = "Aspirin"
+Aquipta = "Atogepant"
+Dolormin = "Ibuprofen"
+Emgality = "Galcanezumab"
+Maxalt = "Rizatriptan"
+Palexia = "Tapentadol"
+Pantozol = "Pantoprazol"
+PCM = "Paracetamol"
+Relpax = "Eletriptan"
+Stangyl = "Trimipramin"
+Tempil = "Sumatriptan s.c."
+Vyepti = "Eptinezumab"
+
+# Substitute diagnosis names or icd10-specifiers.
+# If an empty list is given as value, this diagnosis will be ignored
+[substitute_diagnoses]
+"G43.8" = ["G43.8/3", "Chronische Migräne"]
+"G43.3" = []
+"F55.2" = ["F55.2", "Analgetikagebrauch"]
+"F45.41" = ["F45.41", "Chronische Schmerzstörung"]

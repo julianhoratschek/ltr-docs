@@ -9,5 +9,5 @@
 
 ## Aufbau config.toml
 
-- In der standard config.toml finden sich alle unterstützten Schlüssel mit
+- In der standard [config.toml](config.toml) finden sich alle unterstützten Schlüssel mit
   Erklärung
