@@ -3,8 +3,8 @@
 
 Dokumentationsseiten für LTR, klinisches Schreibprogramm
 
-- [Anwendung](documentation.md)
-- [Konfiguration](configuration.md)
-- [Docx-Felder](field_commands.md)
+- [Benutzung der Oberfläche](documentation.md)
+- [Grundlegende Konfiguration](configuration.md)
+- [Felder für Word-Processing](field_commands.md)
 - [Formulare erstellen](forms.md)
 
