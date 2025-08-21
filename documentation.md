@@ -34,6 +34,14 @@ Diagnosen-Name ZZ00.99 Kommentare
 
 Hinter dem ICD10-Schlüssel aufgeführter Text wird nicht übernommen.
 
+Alternativ kann auch die Schreibweise
+
+```
+ZZ00.99 Diagnosen-Name (Kommentare)
+```
+
+Verwendet werden.
+
 > [!WARNING]
 > Zeilen ohne ICD10-Schlüssel werden nicht als Diagnosen übernommen und müssen ggf. manuell hinzugefügt werden. Z.B. "Z.n Diagnose X"
 
