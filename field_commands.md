@@ -90,7 +90,9 @@ Diese Felder iterieren über einen Datensatz und fügen entsprechend Listen oder
 | Feldname                | Inhalt                                                                    | Kommentar                                                                       |
 |-------------------------|---------------------------------------------------------------------------|---------------------------------------------------------------------------------|
 | {diagnosen}             | Liste der gefunden ICD10-Diagnosen                                        |                                                                                 |
-| {vorbehandlungen}       | Kommaseparierte Liste der Vorbehandlungen                                 |                                                                                 |
+| {vorbehandlungen}       | Kommaseparierte Liste aller Vorbehandlungen                               |                                                                                 |
+| {medizinische_vorbehandlungen} | Kommaseparierte Liste medizinischer Vorbehandlungen                |                                                                                 |
+| {andere_vorbehandlungen} | Kommaseparierte Liste nicht-medizinischer Behandlungen                   |                                                                                 |
 | {symptome}              | Kommaseparierte Liste häufig auftretender Symptome                        |                                                                                 |
 | {chronisch}             | Kommaseparierte Liste durch Schmerzen entstehender Alltagseinschränkungen |                                                                                 |
 | {akutmedikation_zuvor}  | Kommaseparierte Liste der zuvor verwendeten Akutmedikamente               |                                                                                 |
