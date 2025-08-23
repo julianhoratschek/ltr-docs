@@ -96,8 +96,10 @@ Diese Felder iterieren über einen Datensatz und fügen entsprechend Listen oder
 | {symptome}              | Kommaseparierte Liste häufig auftretender Symptome                        |                                                                                 |
 | {chronisch}             | Kommaseparierte Liste durch Schmerzen entstehender Alltagseinschränkungen |                                                                                 |
 | {akutmedikation_zuvor}  | Kommaseparierte Liste der zuvor verwendeten Akutmedikamente               |                                                                                 |
+| {akutmedikation_aufnahme} | Akutmedikation, die bei Aufnahme eingesetzt wurde ||
 | {akutmedikation}        | Tabelle mit Akutmedikationvorschlägen                                     | Zeilen werden abhängig von Diagnosen eingefügt (s.u.)                           |
 | {basismedikation_zuvor} | Kommaseparierte Liste der zuvor verwendeten Prophylaxemedikation          |                                                                                 |
+| {basismedikation_aufnahme} | Basismedikation, die bei Aufnahme eingesetzt wurde ||
 | {basismedikation}       | Tabelle mit gefundenen Prophylaxemedikamenten                             | Medikamentenhinweise werden abhängig von gefunden Medikamenten eingefügt (s.u.) |
 | {sonstigemedikation}    | Tabelle mit gefundener nicht-schmerztherapeutischer Medikation            |                                                                                 |
 
