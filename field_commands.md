@@ -25,6 +25,7 @@ Die vordefinierten Felder sind:
 | {alter}      | Alter des Patienten in Jahren               |                                   |
 | {addresse}   | Wohnort des Patienten                       |                                   |
 | {arbeit}     | Beruf des Patienten                         |                                   |
+| {bmi}        | BMI des Patienten                           |                                   |
 | {groesse}    | Körpergröße des Patienten in cm             |                                   |
 | {gewicht}    | Gewicht des Patienten in kg                 |                                   |
 | {puls}       | Puls des Patienten in 1/Min.                |                                   |

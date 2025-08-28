@@ -73,6 +73,9 @@ values = [
 ]
 ```
 
+Wird der Wert "--" in values eingetragen, wird an dieser Stelle keine Checkbox erstellt,
+sondern ein freier Platz zur vertikalen Separation gelassen.
+
 Die Felder können vom Benutzer entweder per Maus oder per Tastaturfokus angesteuert werden.
 Durch die Taste "x" kann das aktuelle Feld ausgewählt werden, durch die Taste "y" kann
 das aktuelle Feld ab- (oder nicht-aus-) gewählt werden. Auch Tab/Shift Tab zum springen
