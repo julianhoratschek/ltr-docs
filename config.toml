@@ -61,7 +61,7 @@ Vyepti = "Eptinezumab"
 # Substitute diagnosis names or icd10-specifiers.
 # If an empty list is given as value, this diagnosis will be ignored
 [substitute_diagnoses]
-"G43.8" = ["G43.8/3", "Chronische Migräne"]
-"G43.3" = []
+"G43.3" = ["G43.8/3", "Chronische Migräne"]
+"G43.8" = []
 "F55.2" = ["F55.2", "Analgetikagebrauch"]
 "F45.41" = ["F45.41", "Chronische Schmerzstörung"]

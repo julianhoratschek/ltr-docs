@@ -25,6 +25,7 @@ Die vordefinierten Felder sind:
 | {alter}      | Alter des Patienten in Jahren               |                                   |
 | {addresse}   | Wohnort des Patienten                       |                                   |
 | {arbeit}     | Beruf des Patienten                         |                                   |
+| {bmi}        | BMI des Patienten                           |                                   |
 | {groesse}    | Körpergröße des Patienten in cm             |                                   |
 | {gewicht}    | Gewicht des Patienten in kg                 |                                   |
 | {puls}       | Puls des Patienten in 1/Min.                |                                   |
@@ -90,12 +91,16 @@ Diese Felder iterieren über einen Datensatz und fügen entsprechend Listen oder
 | Feldname                | Inhalt                                                                    | Kommentar                                                                       |
 |-------------------------|---------------------------------------------------------------------------|---------------------------------------------------------------------------------|
 | {diagnosen}             | Liste der gefunden ICD10-Diagnosen                                        |                                                                                 |
-| {vorbehandlungen}       | Kommaseparierte Liste der Vorbehandlungen                                 |                                                                                 |
+| {vorbehandlungen}       | Kommaseparierte Liste aller Vorbehandlungen                               |                                                                                 |
+| {medizinische_vorbehandlungen} | Kommaseparierte Liste medizinischer Vorbehandlungen                |                                                                                 |
+| {andere_vorbehandlungen} | Kommaseparierte Liste nicht-medizinischer Behandlungen                   |                                                                                 |
 | {symptome}              | Kommaseparierte Liste häufig auftretender Symptome                        |                                                                                 |
 | {chronisch}             | Kommaseparierte Liste durch Schmerzen entstehender Alltagseinschränkungen |                                                                                 |
 | {akutmedikation_zuvor}  | Kommaseparierte Liste der zuvor verwendeten Akutmedikamente               |                                                                                 |
+| {akutmedikation_aufnahme} | Akutmedikation, die bei Aufnahme eingesetzt wurde ||
 | {akutmedikation}        | Tabelle mit Akutmedikationvorschlägen                                     | Zeilen werden abhängig von Diagnosen eingefügt (s.u.)                           |
 | {basismedikation_zuvor} | Kommaseparierte Liste der zuvor verwendeten Prophylaxemedikation          |                                                                                 |
+| {basismedikation_aufnahme} | Basismedikation, die bei Aufnahme eingesetzt wurde ||
 | {basismedikation}       | Tabelle mit gefundenen Prophylaxemedikamenten                             | Medikamentenhinweise werden abhängig von gefunden Medikamenten eingefügt (s.u.) |
 | {sonstigemedikation}    | Tabelle mit gefundener nicht-schmerztherapeutischer Medikation            |                                                                                 |
 

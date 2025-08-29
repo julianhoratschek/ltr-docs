@@ -34,6 +34,14 @@ Diagnosen-Name ZZ00.99 Kommentare
 
 Hinter dem ICD10-Schlüssel aufgeführter Text wird nicht übernommen.
 
+Alternativ kann auch die Schreibweise
+
+```
+ZZ00.99 Diagnosen-Name (Kommentare)
+```
+
+Verwendet werden.
+
 > [!WARNING]
 > Zeilen ohne ICD10-Schlüssel werden nicht als Diagnosen übernommen und müssen ggf. manuell hinzugefügt werden. Z.B. "Z.n Diagnose X"
 
@@ -102,6 +110,9 @@ Formulare können in dem Ordner *./forms/* als toml-Dateien definiert werden. F�
 Formulare werden als Tabs geladen. Diese können per Klick oder per [Alt] + [Buchstaben] direkt umgeschaltet werden. In der entsprechenden toml-Datei unter ./forms/ kann der Shortcut für das Formular mittels "&" vor dem entsprechenden Buchstaben im
 Titel des Formulars definiert werden. Je nach Formularfeld kann die Eingabe variieren:
 
+Formulardaten werden bei Export automatisch gespeichert. Zusätzlich können Formulardaten jederzeit mit der Tastenkombination
+[STRG] + [S] zwischengespeichert werden.
+
 
 #### Zeileneingabe
 
@@ -137,6 +148,7 @@ den Boxen gesprungen werden.
 |---------------------------|-----------------------|------------------------------------------------|
 | Aktuelle Daten neu laden  | [F5]                  | Überschreibt ggf. ungespeicherte Formulardaten |
 | Datendatei öffnen         | [STRG] + [I]          |                                                |
+| Daten zwischenspeichern   | [STRG] + [S]          |                                                |
 | Dokument generieren       | [STRG] + [E]          | Speichert Formulardaten                        |
 | Dokument öffnen           | [STRG] + [O]          | Öffnet den aktuellen Dokumententyp             |
 | Checkbox: Auswählen       | [X]                   |                                                |
