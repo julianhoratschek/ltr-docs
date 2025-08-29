@@ -69,14 +69,18 @@ id = "capitals"
 field_type = "xbox"
 rows = 5               # Maximal 5 Auswahlboxen werden pro Spalte angezeigt
 values = [
-    "Kiel", "Schwerin", "Hamburg", "Hannover", "Potsdam", "Magdeburg", "Düsseldorf", "Erfurt", "Dresden", "Wiesbaden", "Mainz", "Saarbrücken", "Stuttgart", "München"
+    "Kiel", "Schwerin", "Hamburg", "Hannover", "Potsdam", "Magdeburg", "Düsseldorf", "Erfurt", "Dresden", "Wiesbaden", "Mainz", "Saarbrücken", "Stuttgart", "München", "Berlin*"
 ]
 ```
 
+Enthält eine der Optionen ein Stern (\*), so wird diese Option - auch wenn sie ausgewählt wird - nicht übernommen (Im Beispiel: Berlin).
+
 Die Felder können vom Benutzer entweder per Maus oder per Tastaturfokus angesteuert werden.
 Durch die Taste "x" kann das aktuelle Feld ausgewählt werden, durch die Taste "y" kann
-das aktuelle Feld ab- (oder nicht-aus-) gewählt werden. Auch Tab/Shift Tab zum springen
+das aktuelle Feld ab- (oder nicht-aus-) gewählt werden. Auch Tab/Shift Tab oder die Pfeiltasten zum springen
 zwischen den Feldern kann verwendet werden.
+
+Jedes xbox-Feld wird mit einem Button zur Umkehr der gesamten Auswahl generiert.
 
 ### split_line
 
